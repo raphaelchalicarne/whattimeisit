@@ -1,4 +1,4 @@
-var myClock = setInterval(clock, 1000);
+var myClock = setInterval(clock, 500);
 
 function clock() {
     var date = new Date();
