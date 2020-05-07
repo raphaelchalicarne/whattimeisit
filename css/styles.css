@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'mkocr';
+    src: url('../fonts/mkocr/mkocr.ttf') format('truetype'),
+    url('../fonts/mkocr/mkocr.woff') format('woff'),
+    url('../fonts/mkocr/mkocr.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'data-control';
+    src: url('../fonts/data-control/data-latin.ttf') format('truetype');
+}
+
+#clock_container {
+    font-size: 10vw;
+    
+}
+
+#current_time {
+    margin: 0;
+    font-family: 'MKOCR', 'data-control';
+}
