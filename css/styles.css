@@ -10,12 +10,35 @@
     src: url('../fonts/data-control/data-latin.ttf') format('truetype');
 }
 
+.clock {
+    background-color: black;
+}
+
 #clock_container {
-    font-size: 10vw;
-    
+    border: 1.5vw solid black;
+    border-radius: 15px;
+}
+
+#clock_metal {
+    border: 1vw ridge #c0c0c0;
+    border-radius: inherit;
+}
+
+#clock_front {
+    border-width: 1vw 1vw 1vw 4vw;
+    border-style: solid;
+    border-color: black;
+    border-radius: inherit;
 }
 
 #current_time {
-    margin: 0;
+    color: #21fc0d;
+    background-color: #383838;
+    width: 50%;
+    text-align: center;
     font-family: 'MKOCR', 'data-control';
+    font-size: 11vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1vw;
 }
