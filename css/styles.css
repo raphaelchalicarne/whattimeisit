@@ -12,6 +12,8 @@
 
 .clock {
     background-color: black;
+    color: #21fc0d;
+    font-family: 'MKOCR', 'data-control';
 }
 
 #clock_container {
@@ -25,18 +27,21 @@
 }
 
 #clock_front {
-    border-width: 1vw 1vw 1vw 4vw;
+    border : 1vw solid black;
+    /* border-width: 1vw 1vw 1vw 4vw;
     border-style: solid;
-    border-color: black;
+    border-color: black; */
     border-radius: inherit;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-
+#am_pm {
+    font-size: 5vw;
+}
 #current_time {
-    color: #21fc0d;
     background-color: #383838;
-    width: 50%;
+    width: 45%;
     text-align: center;
-    font-family: 'MKOCR', 'data-control';
     font-size: 11vw;
     margin-top: 0;
     margin-bottom: 0;

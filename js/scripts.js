@@ -2,8 +2,10 @@ var myClock = setInterval(clock, 500);
 
 function clock() {
     var date = new Date();
-    var time = date.toLocaleTimeString();
-    $('#current_time').text(time);
+    var time_us = date.toLocaleTimeString('en-US');
+    var time_us_array = time_us.split(' ');
+    $('#current_time').text(time_us_array[0]);
+    $('#am_pm').text(time_us_array[1]);
 }
 
 var locale = Intl.DateTimeFormat().resolvedOptions().locale;
