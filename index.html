@@ -17,15 +17,19 @@
 <body>
     <div id="clock_container" class="clock">
         <div id="clock_metal" class="clock">
-            <!-- <div id="clock_front" class="clock"> -->
-                <p id="clock_front" class="clock"><span id="am_pm"></span><span id="current_time"></span></p>
-                <!-- <p id="am_pm"></p>
-                <p id="current_time"></p> -->
-            <!-- </div> -->
+            <div id="clock_front" class="clock">
+                <div id="am_pm">
+                    <p id="am"></p>
+                    <p id="pm"></p>
+                </div>
+                <p id="current_time"></p>
+                <div id="info">
+                    <p id="timezone"></p>
+                    <p id="utc_offset"></p>
+                </div>
+            </div>
         </div>
     </div>
-    <h2>Timezone <span id="timezone"></span></h2>
-    <h2 id="utc_offset"></h2>
     <script src="js/scripts.js"></script>
 </body>
 
