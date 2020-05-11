@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'mkocr';
+    src: url('../fonts/mkocr/mkocr.ttf') format('truetype'),
+    url('../fonts/mkocr/mkocr.woff') format('woff'),
+    url('../fonts/mkocr/mkocr.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'data-control';
+    src: url('../fonts/data-control/data-latin.ttf') format('truetype');
+}
+
+.clock {
+    background-color: black;
+    color: #21fc0d;
+    font-family: 'MKOCR', 'data-control';
+}
+
+#clock_container {
+    border: 1.5vw solid black;
+    border-radius: 15px;
+}
+
+#clock_metal {
+    border: 1vw ridge #c0c0c0;
+    border-radius: inherit;
+}
+
+#clock_front {
+    border : 1vw solid black;
+    border-radius: inherit;
+    display: flex;
+}
+
+#clock_front p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#am_pm {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#am_pm p {
+    height: 40%;
+    font-size: 5vw;
+}
+
+#current_time {
+    background-color: #383838;
+    width: 45%;
+    font-size: 10vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1vw;
+}
+#info {
+    width: 45%;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
